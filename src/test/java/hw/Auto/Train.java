@@ -1,4 +1,4 @@
-package hw;
+package hw.Auto;
 
 public class Train {
 

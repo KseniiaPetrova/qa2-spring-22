@@ -1,4 +1,4 @@
-package hw;
+package hw.Auto;
 
 import org.junit.jupiter.api.Test;
 
