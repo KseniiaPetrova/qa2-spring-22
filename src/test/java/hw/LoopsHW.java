@@ -9,7 +9,7 @@ public class LoopsHW {
 
 
     @Test
-    public void loops2 (){
+    public void loops (){
         List<Integer> numbers = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             numbers.add(i + 1);
