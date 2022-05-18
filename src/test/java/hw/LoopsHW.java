@@ -7,42 +7,6 @@ import java.util.List;
 
 public class LoopsHW {
 
-    @Test
-    public void loops (){
-        List<Integer> numbers = new ArrayList<>();
-        numbers.add(45);
-        numbers.add(54);
-        numbers.add(222);
-        numbers.add(432);
-        numbers.add(567);
-        numbers.add(344);
-        numbers.add(864);
-        numbers.add(572);
-        numbers.add(904);
-        numbers.add(11);
-        numbers.add(8);
-        numbers.add(134);
-        numbers.add(22);
-        numbers.add(12);
-        numbers.add(36);
-        numbers.add(31);
-        numbers.add(98);
-        numbers.add(4);
-        numbers.add(52);
-        numbers.add(11);
-
-        for (Integer i: numbers) {
-            if (i / 2 == 4) {
-                System.out.println(i);
-            }
-        }
-
-        for (Integer i : numbers) {
-            if (i % 2 == 0) {
-                System.out.println(i);
-            }
-        }
-    }
 
     @Test
     public void loops2 (){
@@ -52,7 +16,7 @@ public class LoopsHW {
         }
 
         for (Integer i: numbers) {
-            if (i / 2 == 4) {
+            if (i % 2 == 0 && i / 2 == 4) {
                 System.out.println(i);
             }
         }
